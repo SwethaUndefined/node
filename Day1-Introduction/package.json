@@ -1,0 +1,15 @@
+{
+  "name": "myfirstapp",
+  "version": "1.0.0",
+  "description": "This is my calculator project",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Swetha",
+  "license": "ISC",
+  "dependencies": {
+    "cities": "^2.0.0"
+  }
+}

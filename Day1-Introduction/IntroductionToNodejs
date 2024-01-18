@@ -1,0 +1,51 @@
+Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine.
+Express.js is one of the most popular Node.js frameworks that is used in server-side web development along with NoSQL database, MongoDB.
+RELP: It is a tool which is used for checking whether the node is working or not.
+
+Client and Server interaction:
+Basically it is frontend and backend interactions.
+
+Diagram:
+                Browser(frontend or client side)
+                                  Request Response model.
+                Web Server(backend or server side)
+They both communicate with each other using http framework or http protocal.
+
+Client side:
+ refers to the code you write that results in
+something the user sees in his web browser. Client-side code
+typically includes JavaScript used to animate the user experience
+when a web page is loaded
+Server-Side:
+refers to code used for application logic
+(how data is organised and saved to the database). Server-side
+code is responsible for authenticating users on a login page,
+running scheduled tasks, and even ensuring that the client-side
+code reaches the client.
+
+JavaScript runtime means, something will interperut or understand JS and give the output.
+In normal JS we can run and see the output only in the browser like chrome, mozilla,internet explorer. After Node.js is introducted we can see the output outside of the browser, node.js is made up of chrome functionality.
+Only purpose of JS code:
+1.Run and execute the JS code.
+
+Synchronous Vs Asynchronous:
+A synchronous request blocks the client until operation completes i.e. browser is unresponsive. In such case, javascript engine of the browser is blocked.
+
+An asynchronous request doesn’t block the client i.e. browser is responsive. At that time, user can perform another operations also. In such case, javascript engine of the browser is not blocked.
+
+Node js is a single threaded and synchronous in nature. Node js is worked based on event queue.
+
+Callback:
+A callback is a function passed as an argument to another function.
+
+In synchronous programming cannot to multi tasking paralelly.
+
+Blocking vs Non-Blocking I/O Model:
+Blocking I/O Model: Block the I/O while the first task is executed.
+Non-Blocking I/O Model: Executes parallely.
+
+If we want holidays for the year. We need not to check the google and get all and put it in array and then use, no need that. We can go to npm.com then type holidays there it has a package. Just import it in our node then use it.
+
+
+What is the Event Loop in Node.js?
+The Event Loop is what allows Node.js to perform non-blocking I/O operations despite the fact that is single-threaded. Whenever a task gets completed, the Event Loop fires the corresponding event which signals the event-listener function to execute.

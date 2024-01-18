@@ -1,0 +1,3 @@
+The interactive Node.js shell is called a Read-Evaluate-Print-Loop (REPL) shell.
+This shell is a space in which you can write pure JavaScript and evaluate your code in the
+terminal window in real-time. 

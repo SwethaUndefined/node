@@ -1,0 +1,4 @@
+    console.log(request);
+    console.log(request.url);
+    console.log(request.method);
+    console.log(request.headers);

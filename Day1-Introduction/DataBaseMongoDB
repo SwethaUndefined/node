@@ -1,0 +1,29 @@
+organized collection of data, so that it can be easily accessed and managed.
+Query to work with DB:
+1.Create 2.Read 3.Update 4.Delete.
+
+Difference b/w sequential and non sequential:
+Sequential is succeeding or following in order while nonsequential 
+is not sequential; not in any regular sequence
+
+In DB we can store the data and manipulate using queries like Create, Read, Delete and Update.
+
+Schema , means structure of data. 
+
+SQL                                                NoSQL
+1.Fixed schema                                     1.Dynamic schema   
+2.Scaled                                           2.NoSQL databases are more suitable for horizontal 
+more servers to improve performance                 scaling, where you keep adding more servers to 
+vertically by increasing the CPU and RAM            improve performance
+to increase the power of the existing
+database
+---------------------------------------------------------------------------------------------
+
+MongoDB:
+MongoDB documents are similar to JSON objects
+
+{
+    name:"Swetha",
+    age:26
+}
+Like this, this one is called as document, Multiple document called as collection. Multiple collection called DB. And all these stored in server.

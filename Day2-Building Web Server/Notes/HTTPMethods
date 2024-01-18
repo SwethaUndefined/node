@@ -1,0 +1,19 @@
+HTTP Methods:
+1.GET: 
+Used to retrieve data from the URL and it does not modify the data.
+2. POST:
+send user data to the server. It can also be used to create a new entity.
+3. PUT:
+Used to either create a new entity or update an already existing entity.
+4. DELETE:
+Used to remove all the resources provided by the given URL.
+
+GET                                                                  POST
+1. Used to Fetch the Data                                    1. Used to send data and update.
+2. Parameters passed along with the GET method               2. parameters passed along with the POST
+stay as part of the URL, and hence, they are stored          method are not a part of the URL, and 
+in the browser history                                       hence, they are not stored in the browser  
+                                                             history. 
+3. Should not be used in case you are looking for            3.It can be used while sharing sensitive. 
+security and want to share sensitive data                                                             
+4. GET requests have restriction on length(2400)                   4. POST requests do not have any length restriction

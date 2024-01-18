@@ -1,0 +1,8 @@
+1. 200-OK = Status code shows that the request was successfully carried out.
+2. 400-Bad Request = If we incorrectly send string instead of boolean, we will get this kind of error.
+3. 401-UnAuthorized = Not legal to login.
+4. 403-Forbidden = Not for that particular user.
+5. 404-Not Found = No file is found.
+6.500 - Internal Server Error = server response functions as a collection status code for an unexpected server error
+7. 503 - Service Unavailable  = server that is trying to be accessed is currently
+overloaded

@@ -1,0 +1,26 @@
+The most common fs module APIs can perform the following operations:
+○ Read files
+■ fs.readFile()
+○ Create files
+■ fs.appendFile()
+■ fs.open()
+■ fs.writeFile()
+○ Update files
+■ fs.appendFile()
+■ fs.writeFile()
+○ Delete files
+■ fs.unlink()
+○ Rename files
+■ fs.rename()
+
+
+In the example index.js, fs.readFile().  Inside parantheses, the first argument is path that needs to read
+the second parameter is callback fn.... Then the callback fn takes two argument, one is error, the next is
+data that is received. then handle the error.
+
+fs.appendFile() == used to add the extra content
+fs.writeFile()=== Delete the previous content and add the new content.
+fs.rename()==used to rename the file, (first argument is the file name, second as new file name which has
+to be change, third is callback fn)
+fs.unlink()== delete the file.
+fs.open()==check whether the file is open or not.

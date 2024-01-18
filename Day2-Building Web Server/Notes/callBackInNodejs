@@ -1,0 +1,6 @@
+A callback is an anonymous function (a function without a name) that is to be invoked as
+soon as another function completes its execution.
+
+HTTP web server, many requests are received and each request processing
+takes a different time to complete. Thus, here the callback function intimates the client only
+when the response is ready.

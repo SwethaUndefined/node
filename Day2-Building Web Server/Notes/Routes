@@ -1,0 +1,9 @@
+A route is a way of determining how an application should respond to a request made to a specific
+URL.
+
+/info            http:// localhost:3000/info
+/contactUs       http:// localhost:3000/contactUs
+/                http:// localhost:3000/
+
+Mapping of routes to the responses is called routeResponseMap.
+

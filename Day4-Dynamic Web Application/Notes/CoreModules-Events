@@ -1,0 +1,8 @@
+Node.js has multiple inbuilt events available through the events module and the EventEmitter
+class, which are used to bind events.
+
+In Node.js, there is an EventEmitter class. Event emitters are objects in Node.js that
+trigger an event by sending a message to signal that an action was completed.
+
+It has two
+One is Create a event, second is Listen the event.

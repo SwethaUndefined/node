@@ -1,0 +1,73 @@
+on() used to bind the events. It takes two parametes, one is event name and next is listener(callback fn).
+Whenever the event is triggered(that event name) it will call the listener fn.
+
+myEmitter.emit("demoEvent"); this will call the on() with the use of emit fn.
+
+
+See the example in test.js.
+
+
+The EventEmitter class follows an observer design pattern
+or a publish-subscribe pattern. 
+
+
+// myEmitter.on("demoEvent", ()=>{//publish
+//      console.log("demoEvent triggered")
+// });                                
+
+// myEmitter.emit("demoEvent");  //subscriber
+--------------------------------------------------------------------------------------------------
+
+The APIs or the methods that you will learn about and
+implement include these:
+
+1.once method - Similar to the method on but listens
+once only.
+
+Eg: // myEmitter.once("demoEvent", ()=>{
+//      console.log("demoEvent triggered")
+// });                                
+
+// myEmitter.emit("demoEvent");  
+// myEmitter.emit("demoEvent");  
+// myEmitter.emit("demoEvent");  
+// myEmitter.emit("demoEvent");  
+Even i called the emit multiple times it will output as once because of "once".
+--------------------------------------------------------------------------------------------------
+
+2. off/removeEventListener method - To remove the
+EventListener.
+
+Eg: // const callback = ()=>{
+//      console.log("demoEvent triggered")
+}
+
+// myEmitter.on("demoEvent",callback);                                
+
+// myEmitter.emit("demoEvent");  
+// myEmitter.emit("demoEvent");  
+// myEmitter.off("demoEvent",callback);                                
+// myEmitter.emit("demoEvent");  
+// myEmitter.emit("demoEvent");  
+--------------------------------------------------------------------------------------------------
+
+The above example i need to call the emit 2 times only after that i have to off so that i put off()
+two emit called.
+
+Multiple callbacks also possible, see the exmaple in PPT page#29.
+--------------------------------------------------------------------------------------------------
+To know how many callbacks are called. Use listenerCount().
+
+rawListeners method - To list the listeners.
+Eg:
+console.log(myEmitter.listenerCount("demoEvent"));
+--------------------------------------------------------------------------------------------------
+To know what are the callbacks are called. Use rawListeners().
+
+listenerCount method - To get the count of listeners
+Eg:
+console.log(myEmitter.rawListeners("demoEvent"));
+
+
+
+We can also pass the parameters inside the arrow func in the EventEmitter.

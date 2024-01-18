@@ -1,0 +1,13 @@
+Directories:
+Whatever we see in the left side of the VS code, called directories.
+Module:
+All the .js called as module.
+Modules:
+And lot of .js files together called modules.
+Package:
+Many files are put inside one folder called package. 
+Projects:
+Lot of folders called as projects.
+Dependencies:
+Dependencies are also called as packages. But we are installing it from npm and they are external to our 
+project. If anyone is trying to clone our application, based on the dependencies, the user can install the versions for the getting the same output as the project shown.

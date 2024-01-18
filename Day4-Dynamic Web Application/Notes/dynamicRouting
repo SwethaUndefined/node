@@ -1,0 +1,5 @@
+if(request.url.indexOf(".html")!==-1){
+            `./views ${request.url}`
+         }
+
+//Extra adding this above for make the url dynamically.         

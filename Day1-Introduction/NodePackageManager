@@ -1,0 +1,13 @@
+npm init- It will create a node project.
+npm install - it will create dependencies.
+npm install <package> --save: It will save the Dependencies. Means npm install postal code --save,
+it will create postal code package and saved all the dependencies.
+npm install <package> --global
+npm install <package> --g
+installs the package globally, accessible to all modules.
+npm uninstall <package>
+uninstalls the given package.
+
+● Every Node.js application or module contains a package.json file to define the properties of 
+the project.
+

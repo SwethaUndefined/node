@@ -1,0 +1,16 @@
+Custom modules/packages: 
+              These modules/packages are created and defined by the user.
+You need not install a custom module. Example: main.js, calculator.js
+
+Third-party modules/packages:
+              These modules/packages are provided by Node Package
+Manager. They have already been created by someone else for you. You need to install a
+third-party module via NPM and import the module using the require function while providing
+the name of the module as the ID to start using it. eg: npm-install-status-codes
+
+Core modules:
+             Provided by the language(our case Node.js).
+             These modules are provided by Node by default; you need not define them.
+Also, these are not required to be installed prior to their usage. You can simply use the require
+function to import a core module to start using it. Eg: console.log, http(not done any installation),
+react hooks.

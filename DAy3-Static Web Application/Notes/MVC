@@ -1,0 +1,6 @@
+Model-View-Controller
+means we put header files in header folder, home page files are stored in home folder....
+Anything that we want to show it in UI we must put that files inside the views folder.
+
+
+This file structure called as Model-View-Controller.
